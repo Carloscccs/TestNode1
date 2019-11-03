@@ -1,0 +1,15 @@
+{
+  "name": "test2-nodeapp",
+  "version": "0.0.1",
+  "description": "Segunda app probando node y handlebars.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Carloscccs",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  }
+}
