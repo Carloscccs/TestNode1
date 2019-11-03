@@ -22,4 +22,4 @@ app.use( (req,res,next) => {
 
 app.use(routes);
 
-app.listen(app.get('port'),process.env.HOST ,() => { console.log("Servidor encendido en el puerto "+app.get('port'))});
+app.listen(app.get('port') ,() => { console.log("Servidor encendido en el puerto "+app.get('port'))});
